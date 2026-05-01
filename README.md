@@ -7,7 +7,7 @@ A modern web-based system for issuing, managing, and verifying academic certific
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This system allows institutions to:
 - Issue digital certificates
@@ -17,21 +17,21 @@ This system allows institutions to:
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
-### 🔑 Admin Panel
+### Admin Panel
 - Secure login (bcrypt authentication)
 - Manage students (add, edit, delete, search)
 - Issue certificates
 - Edit, revoke, and delete certificates
 
-### 📜 Certificate System
+### Certificate System
 - Unique Certificate ID
 - PDF certificate generation
 - QR code generation for quick verification
 - Certificate status (Valid / Revoked)
 
-### 🔍 Public Verification
+###  Public Verification
 - Verify certificate using Certificate ID
 - QR-based verification
 - Displays:
@@ -45,12 +45,12 @@ This system allows institutions to:
 - Blockchain-style ledger storage
 - Tamper detection using hash recalculation
 - Verification result:
-  - ✅ Verified
-  - ❌ Not Verified (Tampering Detected)
+  -  Verified
+  -  Not Verified (Tampering Detected)
 
 ---
 
-## 🧠 How Tamper Detection Works
+##  How Tamper Detection Works
 
 1. Certificate data → hashed (SHA-256)
 2. Hash stored in database + blockchain ledger
