@@ -59,4 +59,59 @@ This system allows institutions to:
    - Compares with blockchain hash
 
 If mismatch:
+ Tampering Detected
+
+
+##  Tech Stack
+
+- **Frontend:** Next.js (App Router), Tailwind CSS
+- **Backend:** Next.js API Routes
+- **Database:** PostgreSQL (Neon)
+- **ORM:** Prisma
+- **Authentication:** bcrypt
+- **PDF Generation:** jsPDF
+- **QR Code:** qrcode library
+
+
+##  Live Demo
+
+👉 _Coming Soon_
+
+---
+
+##  Source Code
+
+The full source code is maintained in a **private repository**.
+
+This public repository is intended for:
+- project showcase
+- documentation
+- demonstration
+
+---
+
+##  Use Cases
+
+- Universities
+- Training institutes
+- Certification bodies
+- Digital credential systems
+
+---
+
+##  Author
+
+Developed as part of a secure digital certification system project.
+
+---
+
+##  Future Enhancements
+
+- Full blockchain integration (Ethereum / Hyperledger)
+- Certificate preview page
+- Export reports (CSV / PDF)
+- Role-based access control
+- Dark mode UI
+
+
 
